@@ -1,0 +1,85 @@
+
+
+.lapimg {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%;
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid yellow;
+  animation: superman 3s infinite;
+}
+
+.lapimg img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  
+}
+
+@keyframes superman {
+  0%{
+    border-color: blue;
+    transform: translate(0,0px);
+    box-shadow: 20px 20px 200px 10px blue;
+
+  }
+  25%{
+    border-color: rgb(239, 244, 11);
+    transform: translate(0,0px);
+    box-shadow: 20px 20px 200px 10px rgb(239, 244, 11);
+
+  }
+  50%{
+    border-color: rgb(12,12,199);
+    transform: translate(0,0px);
+    box-shadow: 20px 20px 200px 10px rgb(12,12,199);
+
+  }
+  75%{
+    border-color: rgb(130,217,160);
+    transform: translate(0,0px);
+    box-shadow: 20px 20px 200px 10px rgb(130,217,160);
+
+  }
+  100%{
+    border-color: rgb(50,55,205);
+    transform: translate(0,0px);
+    box-shadow: 20px 20px 200px 10px rgb(50,55,205 );
+
+  }
+}
+#homesection{
+  box-shadow: var(--box-shadow);
+  background-color:var(--bg-color); 
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+
+/* Add a transition to smooth out the appearance */
+/* home.css */
+
+/* Ensure card-text has a fixed height to prevent jumping */
+.aboutme-text {
+  min-height: 60px; /* Adjust this value as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Prevent shifts by setting fixed size */
+.aboutme-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a transition to smooth out the appearance */
+.aboutme-text {
+  transition: none; /* Remove any transition if added */
+}
+

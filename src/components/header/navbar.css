@@ -1,0 +1,41 @@
+/* Centering the navbar items */
+.navbar-nav {
+  display: flex;
+  justify-content: end; /* Centers items horizontally */
+  flex-direction: column;  /* Stacks items vertically */
+  width: 100%; /* Makes sure the items take full width */
+}
+
+/* Ensure that the navbar collapse is centered */
+.navbar-collapse {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+}
+
+/* Optional: Adjustments for mobile view */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center; /* Centers text */
+  }
+  .lastvale{
+    position: relative;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-brand{
+    margin-left: 25px;
+
+  }
+  .navbar-toggler{
+    margin-right: 25px;
+  }
+}
+
+.nav-item{
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid black;
+}

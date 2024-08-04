@@ -1,0 +1,22 @@
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+ }
+ .items{
+   font-size: 30px;
+   border: 2px solid wheat;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid yellow;
+ }
+ .items:hover{
+   box-shadow: 0 0 30px 5px yellow;
+ }

@@ -1,0 +1,25 @@
+.fixed-size-img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  max-width: 100%; /* Ensures the image doesn't overflow */
+  object-fit: cover; /* Ensures images maintain their aspect ratio */
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  .container {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+.skill-section{
+  border: 2px solid yellow;
+  cursor: pointer;
+  background-color: var(--bg-color);
+}
+.skill-section:hover{
+  box-shadow: var(--box-shadow);
+}
